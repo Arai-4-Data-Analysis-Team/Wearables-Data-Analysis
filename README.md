@@ -28,7 +28,8 @@ This a list of things you'll need to have this project up-and-running on your lo
 
 •Python 3.x  
 •pandas  
-•matplotlib
+•matplotlib  
+•seaborn
 
 ## Installation
 
