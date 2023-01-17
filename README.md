@@ -48,7 +48,7 @@ These are the major steps we took in our analysis process:
 
 1. Determined the useful columns / features from the dataset and dropped the unuseful ones  
 2. Added a column for the calculated difference between `alpha_r` and `beta_r` values  
-3. Created a correlation matrix to determine correlation between features  
+3. Created a correlation heatmap to determine correlation between features  
 4. Created various visualizations using different feature combinations and used the most insightful ones for the client report / presentation  
 5. Coordinated with Machine Learning Engineers for visualization of clusters from unsupervised machine learning  
 
