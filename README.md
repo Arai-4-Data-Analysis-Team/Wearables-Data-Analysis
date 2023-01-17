@@ -24,7 +24,7 @@ Available unlabelled data (combined from neck & belt sensors):
 
 ## Prerequisites
 
-This a list of things you'll need to have a copy of the `pipeline` notebook up-and-running on your local machine:
+This a list of things you'll need to have this project up-and-running on your local machine:
 
 •Python 3.x  
 •pandas  
