@@ -11,6 +11,7 @@ B. Angular Velocities (measured in degrees per second) through a gyroscope
 C. Magnetic Force (measured in milligauss) through a magnetometer  
 D. Kal status: Value that can be converted into columns indicating that a certain action is true or false  
 E. Alpha & Beta (measured in degrees): Calculated value indicating two interesting angles for 2D spine movements corrected by the neutral position of the person (which      is measured during calibration)  
+
 ## Getting Started
 
 Available labelled data:  
@@ -39,7 +40,7 @@ This step by step guide will get you up-and-running on your local machine.
 
 ## Usage
 
-The actual project was run using the entire dataset provided by the client. Only samples of the dataset are provided here in `data` folder.
+The actual project was conducted with the entire dataset provided by the client available for use. Only samples of the dataset are provided here in `data` folder.
 
 ## Pipeline
 
