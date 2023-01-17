@@ -20,3 +20,11 @@ Available labelled data:
 
 Available unlabelled data (combined from neck & belt sensors):  
 •665 datasets in .csv format
+
+## Prerequisites
+
+This a list of things you'll need to have a copy of the `pipeline` notebook up-and-running on your local machine:
+
+•Python 3.x  
+•pandas  
+•matplotlib
