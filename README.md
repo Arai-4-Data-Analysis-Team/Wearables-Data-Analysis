@@ -28,3 +28,12 @@ This a list of things you'll need to have a copy of the `pipeline` notebook up-a
 •Python 3.x  
 •pandas  
 •matplotlib
+
+## Installation
+
+This step by step guide will get you up-and-running on your local machine.
+
+1. Create and activate your virtual environment  
+2. Install additional packages and libraries  
+3. Open the notebooks in a code editor of your choice running on the virtual environment you just created
+
