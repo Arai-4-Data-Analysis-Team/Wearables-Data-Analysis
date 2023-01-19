@@ -74,10 +74,10 @@ Here are a few of the visualizations that we presented to the client:
 
 ## Contributors
 
-[Shakeel Ahmad](https://github.com/shakilkhan8219)
-[Abdulhamid Albaz](https://github.com/Abdulhamid900)
-[Mattias Olsen](https://github.com/auth-ooh-mate)
-[Marlon Tadeo](https://github.com/m9tadeo)
+[Shakeel Ahmad](https://github.com/shakilkhan8219)  
+[Abdulhamid Albaz](https://github.com/Abdulhamid900)  
+[Mattias Olsen](https://github.com/auth-ooh-mate)  
+[Marlon Tadeo](https://github.com/m9tadeo)  
 
 ## Adviser
 
