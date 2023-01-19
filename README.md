@@ -52,15 +52,17 @@ These are the major steps we took in our analysis process:
 A. Preprocessing
 1. Determined the useful columns / features from the dataset and dropped the unuseful ones  
 2. Added a column for the calculated difference between `alpha_r` and `beta_r` values  
+3. Transformed timestamp into `seconds` column where 25 rows = 1 second (applicable only for individual files)
+4. Combined / concatenated all labeled data files into one dataset per folder (calibration & movement)
 
 B. Analysis
 1. Created a correlation heatmap to determine correlation between features  
-2. Created various visualizations using different feature combinations and used the most insightful ones for the client report / presentation  
-3. Coordinated with machine learning engineers for visualization of clusters from unsupervised machine learning  
+2. Created various visualizations using different feature combinations and used the most insightful ones for the client report / presentation (see below)  
+3. Coordinated with machine learning engineers for visualization of clusters from unsupervised machine learning via a Power BI dashboard
 
 ## Visualizations
 
-Here are a few of the visualizations that we presented to the client:
+Here are some of the visualizations that we presented to the client:
 
 **Correlation heatmap**
 
