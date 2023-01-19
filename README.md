@@ -26,10 +26,12 @@ Available unlabelled data (combined from neck & belt sensors):
 
 This a list of things you'll need to have this project up-and-running on your local machine:
 
-•Python 3.x  
-•pandas  
-•matplotlib  
-•seaborn
+•[Python 3.x](https://www.python.org/downloads/)  
+•[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)  
+•[matplotlib](https://matplotlib.org/stable/users/installing/index.html)  
+•[seaborn](https://seaborn.pydata.org/installing.html)  
+
+We used [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494) to create the dashboard for the machine learning clusters
 
 ## Installation
 
@@ -47,17 +49,22 @@ The actual project was conducted with the entire dataset provided by the client 
 
 These are the major steps we took in our analysis process:
 
+A. Preprocessing
 1. Determined the useful columns / features from the dataset and dropped the unuseful ones  
 2. Added a column for the calculated difference between `alpha_r` and `beta_r` values  
-3. Created a correlation heatmap to determine correlation between features  
-4. Created various visualizations using different feature combinations and used the most insightful ones for the client report / presentation  
-5. Coordinated with Machine Learning Engineers for visualization of clusters from unsupervised machine learning  
 
-## Deployment
+B. Analysis
+1. Created a correlation heatmap to determine correlation between features  
+2. Created various visualizations using different feature combinations and used the most insightful ones for the client report / presentation  
+3. Coordinated with machine learning engineers for visualization of clusters from unsupervised machine learning  
+
+## Visualizations
+
+Here are a few of the visualizations that we presented to the client:
 
 ## Contributors
 
 ## Timeline
 
 Project Start: `9 January 2023`  
-Project End: 
+Project End: `20 January 2023`
