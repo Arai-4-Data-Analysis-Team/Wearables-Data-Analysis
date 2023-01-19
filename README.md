@@ -62,11 +62,26 @@ B. Analysis
 
 Here are a few of the visualizations that we presented to the client:
 
-### Correlation Heatmap
+**Correlation heatmap**
 
 ![alt text](image.jpg)
 
+**Scatter plot of acceleration X & Y values from neck sensor**
+
+![alt text](image.jpg)
+
+
+
 ## Contributors
+
+[Shakeel Ahmad](https://github.com/shakilkhan8219)
+[Abdulhamid Albaz](https://github.com/Abdulhamid900)
+[Mattias Olsen](https://github.com/auth-ooh-mate)
+[Marlon Tadeo](https://github.com/m9tadeo)
+
+## Adviser
+
+[Louis De Viron](https://github.com/devironl)
 
 ## Timeline
 
