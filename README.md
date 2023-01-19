@@ -62,6 +62,10 @@ B. Analysis
 
 Here are a few of the visualizations that we presented to the client:
 
+### Correlation Heatmap
+
+![alt text](image.jpg)
+
 ## Contributors
 
 ## Timeline
