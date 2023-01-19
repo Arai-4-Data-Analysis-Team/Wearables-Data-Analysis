@@ -68,9 +68,19 @@ Here are a few of the visualizations that we presented to the client:
 
 **Scatter plot of acceleration X & Y values from neck sensor**
 
-![alt text](image.jpg)
+![acceleration](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/The_average_of_acceleration_x_y_in_neck.png)
 
+**Top 5 kal status by label**
 
+![kal status](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/top_5_kal_status.png)
+
+**Difference between alpha and beta values from belt sensor**
+
+![alpha beta](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/The_difference_between_Alpha_R_and_Beta_R.png)
+
+**Distribution of alpha and beta values from belt sensor**
+
+![violin](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/violin_alpha_beta.png)
 
 ## Contributors
 
