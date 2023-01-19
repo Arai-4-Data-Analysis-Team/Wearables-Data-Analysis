@@ -24,7 +24,7 @@ Available unlabelled data (combined from neck & belt sensors):
 
 ## Prerequisites
 
-This a list of things you'll need to have this project up-and-running on your local machine:
+This a list of things you'll need to have this project up-and-running on your local machine. You can also use the `requirements.txt` file:
 
 •[Python 3.x](https://www.python.org/downloads/)  
 •[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)  
@@ -38,12 +38,13 @@ We used [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/de
 This step by step guide will get you up-and-running on your local machine.
 
 1. Create and activate your virtual environment  
+   We used [anaconda](https://www.anaconda.com/products/distribution) to create our virtual environment  
+   `conda create -n ***yourenvname*** python=***x.x*** anaconda` where ***yourenvname*** is your virtual environment name and ***x.x*** is your python version  
+   `conda activate ***yourenvname***`  
 2. Install additional packages and libraries  
+   `conda install pip`  
+   `pip install -r requirements.txt`  
 3. Open the notebooks in a code editor of your choice running on the virtual environment you just created
-
-## Usage
-
-The actual project was conducted with the entire dataset provided by the client available for use. Only samples of the dataset are provided here in `data` folder.
 
 ## Pipeline
 
@@ -51,18 +52,18 @@ These are the major steps we took in our analysis process:
 
 A. Preprocessing
 1. Determined the useful columns / features from the dataset and dropped the unuseful ones  
-2. Added a column for the calculated difference between `alpha_r` and `beta_r` values  
-3. Transformed timestamp into `seconds` column where 25 rows = 1 second (applicable only for individual files)
+2. Transformed timestamp into `seconds` column where 25 rows = 1 second  
+3. Added a column for the calculated difference between `alpha_r` and `beta_r` values  
 4. Combined / concatenated all labeled data files into one dataset per folder (calibration & movement)
 
 B. Analysis
 1. Created a correlation heatmap to determine correlation between features  
-2. Created various visualizations using different feature combinations and used the most insightful ones for the client report / presentation (see below)  
+2. Created various visualizations using different features and used the most insightful ones for the client report / presentation (see below)  
 3. Coordinated with machine learning engineers for visualization of clusters from unsupervised machine learning via a Power BI dashboard
 
 ## Visualizations
 
-Here are some of the visualizations that we presented to the client:
+Here are the visualizations that we presented to the client:
 
 **Correlation heatmap**
 
@@ -70,19 +71,27 @@ Here are some of the visualizations that we presented to the client:
 
 **Scatter plot of acceleration X & Y values from neck sensor**
 
-![acceleration](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/The_average_of_acceleration_x_y_in_neck.png)
+![acceleration](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/acceleration_x_y_neck.png)
+
+**Scatter plot of angular velocities X & Y values from belt sensor**
+
+![gyroscope](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/gyroscope_x_y_belt.png)
 
 **Top 5 kal status by label**
 
 ![kal status](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/top_5_kal_status.png)
 
-**Difference between alpha and beta values from belt sensor**
-
-![alpha beta](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/The_difference_between_Alpha_R_and_Beta_R.png)
-
 **Distribution of alpha and beta values from belt sensor**
 
 ![violin](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/violin_alpha_beta.png)
+
+**Difference between alpha and beta values from belt sensor**
+
+![alpha beta](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/difference_alpha_beta.png)
+
+The following is a screenshot of the Power BI dashboard presented to the client:
+
+![dashboard](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/dashboard_screenshot.png)
 
 ## Contributors
 
