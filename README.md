@@ -64,7 +64,7 @@ Here are a few of the visualizations that we presented to the client:
 
 **Correlation heatmap**
 
-![alt text](image.jpg)
+![heatmap](https://github.com/SpineWise-Data-Analysis-Team/SpineWise-Data-Analysis/blob/main/assets/heatmap.png)
 
 **Scatter plot of acceleration X & Y values from neck sensor**
 
