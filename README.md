@@ -40,11 +40,14 @@ This step by step guide will get you up-and-running on your local machine.
 1. Create and activate your virtual environment. We used [anaconda](https://www.anaconda.com/products/distribution) to create our virtual environment.  
    `conda create -n <yourenvname> python=<x.x> anaconda`  
    `conda activate <yourenvname>`  
+   
    ***yourenvname*** is your virtual environment name and ***x.x*** is your python version  
-2. Install additional packages and libraries  
+   
+2. Install additional packages and libraries.  
    `conda install pip`  
    `pip install -r requirements.txt`  
-3. Open the notebooks in a code editor of your choice running on the virtual environment you just created
+   
+3. Open the notebooks in a code editor of your choice running on the virtual environment you just created.
 
 ## Pipeline
 
