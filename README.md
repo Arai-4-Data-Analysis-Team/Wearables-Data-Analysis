@@ -38,9 +38,9 @@ We used [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/de
 This step by step guide will get you up-and-running on your local machine.
 
 1. Create and activate your virtual environment. We used [anaconda](https://www.anaconda.com/products/distribution) to create our virtual environment.  
-   `conda create -n ***yourenvname*** python=***x.x*** anaconda`  
+   `conda create -n <yourenvname> python=<x.x> anaconda`  
+   `conda activate <yourenvname>`  
    ***yourenvname*** is your virtual environment name and ***x.x*** is your python version  
-   `conda activate ***yourenvname***`  
 2. Install additional packages and libraries  
    `conda install pip`  
    `pip install -r requirements.txt`  
