@@ -71,31 +71,31 @@ Here are the visualizations that we presented to the client:
 
 **Correlation heatmap**
 
-![heatmap](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/heatmap.png)
+![heatmap](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/heatmap.png)
 
 **Scatter plot of acceleration X & Y values from neck sensor**
 
-![acceleration](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/acceleration_x_y_neck.png)
+![acceleration](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/acceleration_x_y_neck.png)
 
 **Scatter plot of angular velocities X & Y values from belt sensor**
 
-![gyroscope](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/gyroscope_x_y_belt.png)
+![gyroscope](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/gyroscope_x_y_belt.png)
 
 **Top 5 kal status by label**
 
-![kal status](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/top_5_kal_status.png)
+![kal status](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/top_5_kal_status.png)
 
 **Distribution of alpha and beta values from belt sensor**
 
-![violin](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/violin_alpha_beta.png)
+![violin](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/violin_alpha_beta.png)
 
 **Difference between alpha and beta values from belt sensor**
 
-![alpha beta](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/difference_alpha_beta.png)
+![alpha beta](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/difference_alpha_beta.png)
 
 The following is a screenshot of the Power BI dashboard presented to the client:
 
-![dashboard](https://github.com/Unsupervised-Data-Analysis-Team/Unsupervised-Data-Analysis/blob/main/assets/dashboard_screenshot.png)
+![dashboard](https://github.com/Arai-4-Data-Analysis-Team/Wearables-Data-Analysis/blob/main/assets/dashboard_screenshot.png)
 
 ## Contributors
 
